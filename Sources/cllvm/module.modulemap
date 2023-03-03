@@ -1,0 +1,5 @@
+module cllvm [system] {
+  header "shim.h"
+  link "libLLVM-C"
+  export *
+}
